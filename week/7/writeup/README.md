@@ -34,5 +34,5 @@ Answer the following questions regarding [this](../image) file:
 - CMSC389R-{look_I_f0und_a_str1ng}: found by running "strings image | grep -C1 "CMSC"" command.
 - CMSC389R-{abr@cadabra} 
 	- Command used : binwalk --dd="png:png" image
-			- opened 248F20.png file from "_image.extracted" folder
+	- opened 248F20.png file from "_image.extracted" folder
 
