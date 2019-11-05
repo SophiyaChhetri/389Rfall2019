@@ -21,10 +21,10 @@ Answer the following questions regarding the server executable (for which source
  not print the output.
  - In exec_command method, line 68 `gets(buff)` - It is not safe because it could give buffer overflow error because it do
  not check maximum limit of input characters. Can use fgets() instead of gets(). fgets is safer as it checks the array
- bound and follow some parameter as maximum length. [fgets() and gets()](https://www.geeksforgeeks.org/fgets-gets-c-language/)
+ bound and follow some parameter as maximum length. [fgets() and gets() explanation](https://www.geeksforgeeks.org/fgets-gets-c-language/)
 
 3. What is the flag?
 
 4. Describe the process you followed to obtain the flag: vulnerabilities exploited, your inputs to the server in a human-readable format, etc. If you create any helper code please include it.
- - I was not able to obtain the flag. In order to find the flag, I first went over server.c throughly. Also ran the program in debugging mode seeing what each line does starting from main_prompt() method.
+ - I was not able to obtain the flag. In order to find the flag, I first went over server.c throughly. Also ran the program in debugging mode to see what each line does starting from main_prompt() method.
  
