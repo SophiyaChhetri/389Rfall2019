@@ -34,4 +34,5 @@ Digital acknowledgement: Sophiya Chhetri
 ### Part 2 (45 Pts)
 
 ### Part 3 (10 Pts)
+- 'Kerckhoffs's Principle' follows that the system must be practically, if not mathematically indecipherable. While 'security through obscurity' is the reliance on design or implementation to be secret. In my opinion, there should be usage of both principles to make the system more secure. First try to make the software as indecipherable as possible then hide the design implementation so it would be accessible to only specific group. Because no matter how secure the system is there will be someone is able to break into the system. So, our main goal would be to make the system as heavily encrypted and as difficult as possible.
 
