@@ -18,6 +18,14 @@ This assignment has two parts. It is due by 11/27/19 at 11:59PM.
 Such a Quick Little, website!
 
 [http://142.93.136.81:5000/](http://142.93.136.81:5000/)
+- I started by looking around the website. The url of 3 links were same except for the id. The id changed from 0 to 2 based 
+on which item you clicked. I tried by changing the id number to 3. I was expecting it to throw some error, but it just 
+displayed the empty page with header. Then I tested to see what would happen if I add some true statement after the item 
+number as shown in class. At first I tried with `http://142.93.136.81:5000/item?id=0 OR '1' ='1'`. It gave me 'ATTEMPTED SQL 
+INJECTION DETECTED' error. Then I changed `OR` with '||'. This redirected me to the homepage. Then I tried by removing 
+single quote at the very end of 1. It still went to homepage. I noticed the class slides had quote before ||. 
+So when I tried with `http://142.93.136.81:5000/item?id=0' || '1' ='1`, it opened a shop page that had all the items. And at 
+the very end was a flag. The flag is `CMSC389R-{y0u_ar3_th3_SQ1_ninj@}`.
 
 ### Part 2 (60 Pts)
 Complete all 6 levels of:
